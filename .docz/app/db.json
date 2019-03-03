@@ -12,15 +12,49 @@
     "dest": "/dist"
   },
   "entries": {
-    "Food.mdx": {
+    "1005.mdx": {
+      "name": "1005 Lamanche Street Info",
+      "route": "/1005lamanche",
+      "order": 2,
+      "id": "57603da0c7fee693169a95f252d21afa",
+      "filepath": "1005.mdx",
+      "link": null,
+      "slug": "1005",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "1005-lamanche-st-info",
+          "value": "1005 Lamanche St. Info"
+        }
+      ]
+    },
+    "arabella.mdx": {
+      "name": "Arabella",
+      "route": "/food/arabella",
+      "menu": "Food",
+      "id": "d3967d8a1d784342e734ea218c3b1396",
+      "filepath": "arabella.mdx",
+      "link": null,
+      "slug": "arabella",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "arabella",
+          "value": "Arabella!"
+        }
+      ]
+    },
+    "food.mdx": {
       "name": "Food",
-      "route": "/",
-      "id": "efec2c1a215e4e71c1463377332124bb",
-      "filepath": "Food.mdx",
+      "route": "/food",
+      "menu": "Food",
+      "id": "9466aaa4cb833a21605683af9177d93a",
+      "filepath": "food.mdx",
       "link": null,
       "slug": "food",
       "order": 0,
-      "menu": null,
       "headings": [
         {
           "depth": 1,
@@ -29,15 +63,32 @@
         }
       ]
     },
-    "The Joint.mdx": {
+    "pizza_d.mdx": {
+      "name": "Pizza Delicious",
+      "route": "/food/pizza-d",
+      "menu": "Food",
+      "id": "188f2974df618d90fdc5fdd608682272",
+      "filepath": "pizza_d.mdx",
+      "link": null,
+      "slug": "pizza-d",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "pizza-delicious",
+          "value": "Pizza Delicious!"
+        }
+      ]
+    },
+    "the_joint.mdx": {
       "name": "The Joint",
-      "route": "/Food",
-      "id": "0b4d9f904add503a3dbaea4cb32fda44",
-      "filepath": "The Joint.mdx",
+      "route": "/food/the-joint",
+      "menu": "Food",
+      "id": "4d6b882707093d8f853d6b002b4bcd02",
+      "filepath": "the_joint.mdx",
       "link": null,
       "slug": "the-joint",
       "order": 0,
-      "menu": null,
       "headings": [
         {
           "depth": 1,
@@ -46,20 +97,37 @@
         }
       ]
     },
-    "test.mdx": {
-      "name": "Hello world",
-      "route": "/",
-      "id": "500c9e61ab378cdcebd3a49a682704ef",
-      "filepath": "test.mdx",
+    "transportation.mdx": {
+      "name": "Transportation",
+      "route": "/transportation",
+      "id": "ba989390fd32085cfe0d0141b5139e54",
+      "filepath": "transportation.mdx",
       "link": null,
-      "slug": "test",
+      "slug": "transportation",
       "order": 0,
       "menu": null,
       "headings": [
         {
           "depth": 1,
-          "slug": "hello-world",
-          "value": "Hello world!"
+          "slug": "transportation",
+          "value": "Transportation!"
+        }
+      ]
+    },
+    "welcome.mdx": {
+      "name": "Welcome",
+      "route": "/",
+      "order": 1,
+      "id": "8d16f5dd812fdc0c343402b51a65022a",
+      "filepath": "welcome.mdx",
+      "link": null,
+      "slug": "welcome",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "welcome",
+          "value": "Welcome!"
         }
       ]
     }

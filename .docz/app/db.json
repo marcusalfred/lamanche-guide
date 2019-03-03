@@ -1,0 +1,32 @@
+{
+  "config": {
+    "title": "Lamanche",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "dest": "/dist"
+  },
+  "entries": {
+    "pages/test.mdx": {
+      "name": "Hello world",
+      "route": "/",
+      "id": "974d67ce4d4fc95bab3d8b218260e194",
+      "filepath": "pages/test.mdx",
+      "link": null,
+      "slug": "pages-test",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello world!"
+        }
+      ]
+    }
+  }
+}

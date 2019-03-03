@@ -1,12 +1,13 @@
 {
   "name": "lamanche",
+  "version": "1.0.0",
   "scripts": {
-    "docz:dev": "docz dev",
-    "docz:build": "docz build",
+    "dev": "docz dev",
+    "build": "docz build",
     "now-build": "yarn build"
   },
   "devDependencies": {
-    "docz": "latest",
-    "docz-theme-default": "latest"
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7"
   }
 }

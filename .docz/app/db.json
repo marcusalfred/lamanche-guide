@@ -4,6 +4,7 @@
     "description": "My awesome app using docz",
     "menu": [],
     "ordering": "descending",
+    "version": "1.0.0",
     "repository": null,
     "native": false,
     "codeSandbox": true,
@@ -11,13 +12,47 @@
     "dest": "/dist"
   },
   "entries": {
-    "pages/test.mdx": {
+    "Food.mdx": {
+      "name": "Food",
+      "route": "/",
+      "id": "efec2c1a215e4e71c1463377332124bb",
+      "filepath": "Food.mdx",
+      "link": null,
+      "slug": "food",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "food",
+          "value": "Food!"
+        }
+      ]
+    },
+    "The Joint.mdx": {
+      "name": "The Joint",
+      "route": "/Food",
+      "id": "0b4d9f904add503a3dbaea4cb32fda44",
+      "filepath": "The Joint.mdx",
+      "link": null,
+      "slug": "the-joint",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "the-joint",
+          "value": "The Joint!"
+        }
+      ]
+    },
+    "test.mdx": {
       "name": "Hello world",
       "route": "/",
-      "id": "974d67ce4d4fc95bab3d8b218260e194",
-      "filepath": "pages/test.mdx",
+      "id": "500c9e61ab378cdcebd3a49a682704ef",
+      "filepath": "test.mdx",
       "link": null,
-      "slug": "pages-test",
+      "slug": "test",
       "order": 0,
       "menu": null,
       "headings": [

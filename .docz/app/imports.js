@@ -1,4 +1,8 @@
 export const imports = {
-  'pages/test.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "pages-test" */ 'pages/test.mdx'),
+  'Food.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "food" */ 'Food.mdx'),
+  'The Joint.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "the-joint" */ 'The Joint.mdx'),
+  'test.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "test" */ 'test.mdx'),
 }

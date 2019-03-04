@@ -8,92 +8,53 @@
     "repository": null,
     "native": false,
     "codeSandbox": true,
-    "themeConfig": {},
-    "dest": "/dist"
+    "themeConfig": {}
   },
   "entries": {
-    "1005.mdx": {
-      "name": "1005 Lamanche Street Info",
-      "route": "/1005lamanche",
-      "order": 2,
-      "id": "57603da0c7fee693169a95f252d21afa",
-      "filepath": "1005.mdx",
-      "link": null,
-      "slug": "1005",
-      "menu": null,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "1005-lamanche-st-info",
-          "value": "1005 Lamanche St. Info"
-        }
-      ]
-    },
-    "arabella.mdx": {
-      "name": "Arabella",
-      "route": "/food/arabella",
-      "menu": "Food",
-      "id": "d3967d8a1d784342e734ea218c3b1396",
-      "filepath": "arabella.mdx",
-      "link": null,
-      "slug": "arabella",
-      "order": 0,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "arabella",
-          "value": "Arabella!"
-        }
-      ]
-    },
     "food.mdx": {
       "name": "Food",
       "route": "/food",
-      "menu": "Food",
       "id": "9466aaa4cb833a21605683af9177d93a",
       "filepath": "food.mdx",
       "link": null,
       "slug": "food",
       "order": 0,
+      "menu": null,
       "headings": [
         {
           "depth": 1,
-          "slug": "food",
-          "value": "Food!"
-        }
-      ]
-    },
-    "pizza_d.mdx": {
-      "name": "Pizza Delicious",
-      "route": "/food/pizza-d",
-      "menu": "Food",
-      "id": "188f2974df618d90fdc5fdd608682272",
-      "filepath": "pizza_d.mdx",
-      "link": null,
-      "slug": "pizza-d",
-      "order": 0,
-      "headings": [
+          "slug": "where-to-eat",
+          "value": "Where to Eat!"
+        },
         {
-          "depth": 1,
+          "depth": 2,
+          "slug": "arabella-casa-di-pasta",
+          "value": "Arabella Casa di Pasta"
+        },
+        {
+          "depth": 2,
           "slug": "pizza-delicious",
-          "value": "Pizza Delicious!"
-        }
-      ]
-    },
-    "the_joint.mdx": {
-      "name": "The Joint",
-      "route": "/food/the-joint",
-      "menu": "Food",
-      "id": "4d6b882707093d8f853d6b002b4bcd02",
-      "filepath": "the_joint.mdx",
-      "link": null,
-      "slug": "the-joint",
-      "order": 0,
-      "headings": [
+          "value": "Pizza Delicious"
+        },
         {
-          "depth": 1,
+          "depth": 2,
           "slug": "the-joint",
-          "value": "The Joint!"
+          "value": "The Joint"
+        },
+        {
+          "depth": 2,
+          "slug": "munch-factory",
+          "value": "Munch Factory"
+        },
+        {
+          "depth": 2,
+          "slug": "morrows",
+          "value": "Morrow's"
+        },
+        {
+          "depth": 2,
+          "slug": "barrows",
+          "value": "Barrow's"
         }
       ]
     },
@@ -111,23 +72,89 @@
           "depth": 1,
           "slug": "transportation",
           "value": "Transportation!"
+        },
+        {
+          "depth": 2,
+          "slug": "buses-and-streetcars",
+          "value": "Buses and Streetcars"
+        },
+        {
+          "depth": 2,
+          "slug": "blue-bikes",
+          "value": "Blue Bikes"
+        },
+        {
+          "depth": 2,
+          "slug": "ride-sharing",
+          "value": "Ride Sharing"
         }
       ]
     },
     "welcome.mdx": {
       "name": "Welcome",
       "route": "/",
-      "order": 1,
       "id": "8d16f5dd812fdc0c343402b51a65022a",
       "filepath": "welcome.mdx",
       "link": null,
       "slug": "welcome",
+      "order": 0,
       "menu": null,
       "headings": [
         {
           "depth": 1,
           "slug": "welcome",
           "value": "Welcome!"
+        }
+      ]
+    },
+    "Activities/noma.mdx": {
+      "name": "NOMA",
+      "route": "/activities/noma",
+      "menu": "Activities",
+      "id": "02cfcea6963b5c8261621ef11d9a659b",
+      "filepath": "Activities/noma.mdx",
+      "link": null,
+      "slug": "activities-noma",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "noma",
+          "value": "NOMA!"
+        }
+      ]
+    },
+    "Activities/pres-hall.mdx": {
+      "name": "Preservation Hall",
+      "route": "/activities/pres-hall",
+      "menu": "Activities",
+      "id": "183dd8b9313c35bd1d4032eaa8f86186",
+      "filepath": "Activities/pres-hall.mdx",
+      "link": null,
+      "slug": "activities-pres-hall",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "preservation-hall",
+          "value": "Preservation Hall!"
+        }
+      ]
+    },
+    "Activities/wwii.mdx": {
+      "name": "WWII Museum",
+      "route": "/activities/wwii",
+      "menu": "Activities",
+      "id": "6f91d468e95621e5dfd7a1116e12d2a3",
+      "filepath": "Activities/wwii.mdx",
+      "link": null,
+      "slug": "activities-wwii",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "wwii-museum",
+          "value": "WWII Museum!"
         }
       ]
     }

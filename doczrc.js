@@ -1,10 +1,10 @@
 export default {
   dest: '/dist',
-  public: '/assets',
+  public: '/public',
   menu: [
     'Welcome', // auto ordered menu "Introduction"
     'Transportation',
-    'Food'
+    'Food',
     {
       name: 'Activities', // manually oredered menu "Guides"
       // menu: ['Theming'] // oredered items for "Guides",
